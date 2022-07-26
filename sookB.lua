@@ -723,12 +723,12 @@ else
 UserInfousername = '['..UserInfo.first_name..'](tg://user?id='..UserId..')'
 end
 return {
-Lock     = '[. sookB 𝖳𝖾𝖺𝗆 . ](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n‹ : خاصيه المسح *',
-unLock   = '[. sookB 𝖳𝖾𝖺𝗆 . ](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n'..TextMsg,
-lockKtm  = '[. sookB 𝖳𝖾𝖺𝗆 . ](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n‹ : خاصيه الكتم *',
-lockKid  = '[. sookB 𝖳𝖾𝖺𝗆 . ](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n‹ : خاصيه التقييد *',
-lockKick = '[. sookB 𝖳𝖾𝖺𝗆 . ](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n‹ : خاصيه الطرد *',
-Reply    = '[. sookB 𝖳𝖾𝖺𝗆 . ](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n🔰 : المستخدم⇷ *'..UserInfousername..'\n*'..TextMsg..'*'
+Lock     = '[‹ Source Xx › .](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n‹ : خاصيه المسح *',
+unLock   = '[‹ Source Xx › .](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n'..TextMsg,
+lockKtm  = '[‹ Source Xx › .](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n‹ : خاصيه الكتم *',
+lockKid  = '[‹ Source Xx › .](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n‹ : خاصيه التقييد *',
+lockKick = '[‹ Source Xx › .](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n‹ : بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n‹ : خاصيه الطرد *',
+Reply    = '[‹ Source Xx › .](https://t.me/ZZ7HZ)\n*⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n🔰 : المستخدم⇷ *'..UserInfousername..'\n*'..TextMsg..'*'
 }
 end
 function StatusCanOrNotCan(ChatId,UserId)
@@ -1630,7 +1630,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 }
@@ -1827,7 +1827,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 }
@@ -2091,7 +2091,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 }
@@ -5465,7 +5465,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 }
@@ -5861,7 +5861,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re1@'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}
 },
 {
 {text = 'اخفاء الميوزك .', callback_data = IdUser..'/delAmr'},
@@ -5875,12 +5875,35 @@ Abs = math.random(2,140);
 local Text =" [متحركات Gٍٓif ᯓ ](t.me/ZZ7HZ)"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}},
+{{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/https://t.me/ZZ7HZ/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
-
+if text and text:match('^اهداء @(%S+)$') then
+local UserName = text:match('^اهداء @(%S+)$') 
+mmsg = bot.getMessage(msg.chat_id,msg.reply_to_message_id)
+if mmsg and mmsg.content then
+if mmsg.content.luatele ~= "messageVoiceNote" and mmsg.content.luatele ~= "messageAudio" then
+return bot.sendText(msg.chat_id,msg.id,'* ‹ : عذرأ لا ادعم هذا النوع من الاهدائات*',"md",true)  
+end
+local UserId_Info = bot.searchPublicChat(UserName)
+if not UserId_Info.id then
+return bot.sendText(msg.chat_id,msg.id,"\n* ‹ : عذرآ لا يوجد حساب بهذا المعرف*","md",true)   end
+local UserInfo = bot.getUser(UserId_Info.id)
+if UserInfo.first_name and UserInfo.first_name ~= "" then
+local reply_markup = bot.replyMarkup{type = 'inline',data = {{{text = '᥀ رابط الاهداء ›', url ="https://t.me/c/"..string.gsub(msg.chat_id,"-100",'').."/"..(msg.reply_to_message_id/2097152/0.5)}}}}
+local UserInfom = bot.getUser(msg.sender.user_id)
+if UserInfom.username and UserInfom.username ~= "" then
+Us = '@['..UserInfom.username..']' 
+else 
+Us = 'لا يوجد ' 
+end
+bot.deleteMessages(msg.chat_id,{[1]= msg.id})
+return bot.sendText(msg.chat_id,msg.reply_to_message_id,'* ‹ : هذا الاهداء لـك ( @'..UserInfo.username..' ) عمري فقط ♥️\n ‹ : اضغط على رابط الهداء للستماع الى البصمة  ↓\n ‹ : صاحب الاهداء هـوه »* '..Us..'',"md",true, false, false, false, reply_markup)  
+end
+end
+end
 if text == 'المالك' or text == 'المنشئ' then
 if msg.can_be_deleted_for_all_users == false then
 return LuaTele.sendText(msg_chat_id,msg_id,"\n*‹ : ︙عذرآ البوت ليس ادمن في المجموعه يرجى ترقيته وتفعيل الصلاحيات له *","md",true)  
@@ -5910,7 +5933,7 @@ local TestText = "  ❲ Owner Groups ❳\n⋆┄┄─┄─┄─┄┄─┄�
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -5938,7 +5961,7 @@ local TestText = "  ❲ Developers Bot ❳\n⋆┄┄─┄─┄─┄┄─┄
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -5961,14 +5984,14 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  . sookB 𝖳𝖾𝖺𝗆 . \n⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n ‹ : *Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n‹ : *Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ‹ Source Xx › .\n⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n ‹ : *Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n‹ : *Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
 {text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/A_C_B"}
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -5981,7 +6004,7 @@ keyboardd.inline_keyboard = {
 {text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/A_C_B"}
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6001,7 +6024,7 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  . sookB 𝖳𝖾𝖺𝗆 . \n⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n ‹ : *Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n‹ : *Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ‹ Source Xx › .\n⋆┄┄─┄─┄─┄┄─┄─┄┄⋆\n ‹ : *Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n‹ : *Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
@@ -6018,7 +6041,7 @@ local TestText = "- معلومات محدث السورس : \\nn: name Dev . ["..
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6147,7 +6170,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url = "https://t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .', url = "https://t.me/ZZ7HZ"}
 },
 {
 {text = '❲ VIP version updates ❳', url = "https://https://t.me/eilanD_Source"}
@@ -9508,7 +9531,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url = 't.me/ZZ7HZ'}, 
+{text = '‹ Source Xx › .', url = 't.me/ZZ7HZ'}, 
 },
 }
 }
@@ -10935,7 +10958,7 @@ data = {
 {text = '- م1 -', data = msg.sender.user_id..'/help1'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url = 't.me/ZZ7HZ'}, 
+{text = '‹ Source Xx › .', url = 't.me/ZZ7HZ'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -10958,7 +10981,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url = 't.me/ZZ7HZ'}, 
+{text = '‹ Source Xx › .', url = 't.me/ZZ7HZ'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -10981,7 +11004,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url = 't.me/ZZ7HZ'}, 
+{text = '‹ Source Xx › .', url = 't.me/ZZ7HZ'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -11004,7 +11027,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url = 't.me/ZZ7HZ'}, 
+{text = '‹ Source Xx › .', url = 't.me/ZZ7HZ'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -11027,7 +11050,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url = 't.me/ZZ7HZ'}, 
+{text = '‹ Source Xx › .', url = 't.me/ZZ7HZ'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -13207,6 +13230,87 @@ name = string.gsub(name,"باذنجان","🍆")
 return LuaTele.sendText(msg_chat_id,msg_id,"‹ : اسرع واحد يدز معنى السمايل ~ {"..name.."}","md",true)  
 end
 end
+if text == "تاكات" then
+if Administrator(msg) then
+local arr = {
+"@ل15 كله اكثر انمي تتابعه؟",
+"@ل13 كله اكثر فلم تحبه ؟",
+"@ل10 كله لعبه تحبها؟",
+"@ل17 كله اغنيـۿ تحبها ؟",
+"@ل4 كله اعترفلي ؟",
+"@ل7 كله اعترف بموقف محرج ؟",
+"@ل6 كله اعترف بسر ؟",
+"@ل4 كله انته كي  ؟",
+"@ل8 كله اريد اخطفك؟",
+"@ل9 كله انطيني بوسه ؟",
+"@ل10 كله انطيني حضن ؟",
+"@ل9 كله انطيني رقمك ؟",
+"@ل2 كله انطيني سنابك؟",
+"@ل9 كله انطيني انستكرامك ؟",
+"@ل12 كله اريد هديه؟",
+"@ل11 كله نلعب  ؟",
+"@ل6 كله اقرالي شعر؟",
+"@ل7 كله غنيلي واغنيلك ؟",
+"@ل13 كله ليش انته حلو؟",
+"@ل3 كله انت كرنج ؟",
+"@ل1 كله نتهامس؟",
+"@ل6 كله اكرهك ؟",
+"@ل8 كله احبك؟",
+"@ل5 كله نتعرف ؟",
+"@ل2 كله نتصاحب وتحبني؟",
+"@ل3 كله انته حلو ؟",
+"@ل2 كله احبك وتحبني؟",
+"@ل15 كله اكثر اكله تحبها؟",
+"@ل13 كله اكثر مشروب تحبه ؟",
+"@ل10 كله اكثر نادي تحبه؟",
+"@ل17 كله اكثر ممثل تحبه ؟",
+"@ل4 كله صوره لخاصك ؟",
+"@ل7 كله صوره لبرامجك ؟",
+"@ل6 كله  صوره لحيوانك ؟",
+"@ل4 كله صوره لقنواتك ؟",
+"@ل8 كله عمرك خنت شخص؟",
+"@ل9 كله كم مره حبيت  ؟",
+"@ل10 كله اعترف لشخص؟",
+"@ل9 كله اتحب الالعاب ؟",
+"@ل2 كله تحب الشعر؟",
+"@ل9 كله تحب الاغاني ؟",
+"@ل12 كله اريد ايفون ؟",
+"@ل11 كله تحب الفراوله  ؟",
+"@ل6 كله تحب المونستر؟",
+"@ل7 كله تحب الاكل؟ ؟",
+"@ل13 كله تحب الككو ؟",
+"@ل3 كله تحب البيض ؟",
+"@ل1 كله بلوك منحياتي ؟",
+"@ل6 كله كرشت عليك ؟",
+"@ل8 كله نصير بيست ؟",
+"@ل5 كله انتت قمر ؟",
+"@ل2 كله نتزوج؟",
+"@ل3 كله انته مرتبط ؟",
+"@ل2 كله نطمس؟",
+"@ل8 كله تريد شكليطه؟",
+"@ل9 كله تحب  السمك  ؟",
+"@ل10 كله تحب الكلاب ؟",
+"@ل9 كله تحب القطط ؟",
+"@ل2 كله تحب الريمكسات",
+"@ل9 كله تحب الراب ؟",
+"@ل12 كله تحب بنترست ؟",
+"@ل11 كله تحب التيك توك  ؟",
+"@ل6 كله اكثر متحركه تحبها",
+"@ل7 كله اكثر فويس تحبه ؟",
+"@ل13 كله اكثر ستيكر تحبه؟",
+"@ل3 كله ماذا لو عاد متعتذرا ؟",
+"@ل1 كله خذني بحضنك ؟",
+"@ل6 كله اثكل شوي ؟",
+"@ل8 كله اهديني اغنيه ؟",
+"@ل5 كله حبيتك ؟",
+"@ل2 كله انت لطيف ؟",
+"@ل3 كله انت عصبي  ؟",
+"@ل2 كله اكثر ايموجي تحبه؟"
+}
+bot.sendText(msg.chat_id,0,arr[math.random(#arr)],"md", true)
+redis:setex(bot_id..":PinMsegees:"..msg.chat_id,60,text)
+end
+end
 if text == "اعلام" or text == "اعلام ودول" or text == "اعلام و دول" or text == "دول" then
 if Redis:get(ThesookB.."sookB:Status:Games"..msg.chat_id) then
 Redis:del(ThesookB.."Set:Country"..msg.chat_id)
@@ -14483,7 +14587,7 @@ keyboard.inline_keyboard = {
 {text = '- ميمز', callback_data = IdUser..'/memz@'},{text = '- غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. ChatId .. '&photo=https://t.me/MoviesWaTaN/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14526,7 +14630,7 @@ if Text and Text:match('(%d+)/source@') then
 local UserId = Text:match('(%d+)/source@')
 if tonumber(IdUser) == tonumber(UserId) then
 Abs = math.random(2,54); 
-local Text ='* . sookB 𝖳𝖾𝖺𝗆 . \n⋆┄┄─┄─┄─┄┄─┄─┄┄⋆*'
+local Text ='* ‹ Source Xx › .\n⋆┄┄─┄─┄─┄┄─┄─┄┄⋆*'
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
@@ -14553,7 +14657,7 @@ keyboard.inline_keyboard = {
 {text = '‹ : مره اخرى 🔃 .', callback_data = IdUser..'/gifes@'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendanimation?chat_id=' .. ChatId .. '&animation=https://t.me/https://t.me/GifWaTaN/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14607,7 +14711,7 @@ keyboard.inline_keyboard = {
 {text = '- ميمز', callback_data = IdUser..'/memz@'},{text = '- غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -14636,7 +14740,7 @@ keyboard.inline_keyboard = {
 {text = '- ميمز', callback_data = IdUser..'/memz@'},{text = '- غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/TEAMSUL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14674,7 +14778,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re1@'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/shaarsookB/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14702,7 +14806,7 @@ keyboard.inline_keyboard = {
 {text = '- ميمز', callback_data = IdUser..'/memz@'},{text = '- غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = '❲ . sookB 𝖳𝖾𝖺𝗆 . ❳',url="t.me/ZZ7HZ"}
+{text = '❲ ‹ Source Xx › .❳',url="t.me/ZZ7HZ"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendanimation?chat_id=' .. ChatId .. '&animation=https://t.me/GifWaTaN/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -14729,7 +14833,7 @@ keyboard.inline_keyboard = {
 {text = '- ميمز', callback_data = IdUser..'/memz@'},{text = '- غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -14809,7 +14913,7 @@ keyboard.inline_keyboard = {
 {text = '- ميمز', callback_data = IdUser..'/memz@'},{text = '- غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ',url="t.me/ZZ7HZ"}
+{text = '‹ Source Xx › .',url="t.me/ZZ7HZ"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -15472,7 +15576,7 @@ data = {
 {text = '‹ : الالعاب المتطوࢪه', data = IdUser..'/degm'}, 
 },
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url = 't.me/ZZ7HZ'}, 
+{text = '‹ Source Xx › .', url = 't.me/ZZ7HZ'}, 
 },
 }
 }
@@ -16380,7 +16484,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = "inline",
 data = {
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 }
@@ -16428,7 +16532,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = "inline",
 data = {
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 }
@@ -16498,7 +16602,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = "inline",
 data = {
 {
-{text = '. sookB 𝖳𝖾𝖺𝗆 . ', url='https://t.me/ZZ7HZ'},
+{text = '‹ Source Xx › .', url='https://t.me/ZZ7HZ'},
 },
 }
 }
